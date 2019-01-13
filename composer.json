@@ -1,0 +1,21 @@
+{
+    "name": "lempzz/laravel-runner",
+    "description": "Runner for laravel and composer commands",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Viacheslav Verheles",
+            "email": "l3mpzz@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "src/Commands"
+        ],
+        "psr-4": {
+            "Lempzz\\LaravelRunner\\": "src/"
+        }
+    }
+}
